@@ -133,7 +133,7 @@ Static Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="Parser_8java_source.html#l00093">93</a> of file <a class="el" href="Parser_8java_source.html">Parser.java</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MainListener_8java_source.html#l00061">main.MainListener.parseMessage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MainListener_8java_source.html#l00136">main.MainListener.registeredCommand()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    {</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        Matcher match = <a class="code" href="classlua_1_1Parser.html#abae528b6b03a86d557960b04a23425df">codeExtract</a>.matcher(raw);</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordflow">if</span> (!match.find())</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        {<span class="comment"></span></div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">            /// TODO Tell user he goofed</span></div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment"></span>        }</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        </div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">return</span> match.group(0);</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div><div class="ttc" id="classlua_1_1Parser_html_abae528b6b03a86d557960b04a23425df"><div class="ttname"><a href="classlua_1_1Parser.html#abae528b6b03a86d557960b04a23425df">lua.Parser.codeExtract</a></div><div class="ttdeci">static Pattern codeExtract</div><div class="ttdoc">A regex which can remove the LuaJ code snipped from a player&amp;#39;s message. </div><div class="ttdef"><b>Definition:</b> <a href="Parser_8java_source.html#l00024">Parser.java:24</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -170,13 +170,13 @@ Static Private Attributes</h2></td></tr>
 </dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classentity_1_1Player.html">entity.Player</a> </dd>
 <dd>
-<a class="el" href="classworld_1_1Room.html">world.Room</a> </dd>
+<a class="el" href="classworld_1_1room_1_1Room.html">world.room.Room</a> </dd>
 <dd>
 <a class="el" href="classmain_1_1MainListener.html">main.MainListener</a> ("cast") </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="Parser_8java_source.html#l00035">35</a> of file <a class="el" href="Parser_8java_source.html">Parser.java</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="MainListener_8java_source.html#l00061">main.MainListener.parseMessage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="MainListener_8java_source.html#l00136">main.MainListener.registeredCommand()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    {</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        Globals globals = JsePlatform.standardGlobals();</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        </div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        LuaValue communication = CoerceJavaToLua.coerce(<span class="keyword">new</span> Communication());</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        </div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        globals.set(<span class="stringliteral">&quot;communication&quot;</span>, communication);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        </div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        LuaValue chunk = globals.load(program);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        chunk.call();</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        </div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">return</span>;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>

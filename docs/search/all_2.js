@@ -4,6 +4,8 @@ var searchData=
   ['codeextract',['codeExtract',['../classlua_1_1Parser.html#abae528b6b03a86d557960b04a23425df',1,'lua::Parser']]],
   ['communication',['Communication',['../classlua_1_1api_1_1Communication.html',1,'lua::api']]],
   ['communication_2ejava',['Communication.java',['../Communication_8java.html',1,'']]],
+  ['communicationcommands',['CommunicationCommands',['../classmain_1_1Commands_1_1CommunicationCommands.html',1,'main::Commands']]],
+  ['communicationcommands_2ejava',['CommunicationCommands.java',['../CommunicationCommands_8java.html',1,'']]],
   ['communicationdeprecated',['CommunicationDeprecated',['../classlua_1_1api_1_1CommunicationDeprecated.html',1,'lua.api.CommunicationDeprecated'],['../classlua_1_1api_1_1CommunicationDeprecated.html#a63abdb0223cf89135627c88b10f3c077',1,'lua.api.CommunicationDeprecated.CommunicationDeprecated()']]],
   ['communicationdeprecated_2ejava',['CommunicationDeprecated.java',['../CommunicationDeprecated_8java.html',1,'']]]
 ];

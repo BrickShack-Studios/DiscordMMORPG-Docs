@@ -1,5 +1,5 @@
 <map id="entity.Player" name="entity.Player">
-<area shape="rect" id="node2" href="$classentity_1_1Entity.html" title="entity.Entity" alt="" coords="453,184,545,211"/>
-<area shape="rect" id="node3" href="$classworld_1_1Room.html" title="world.Room" alt="" coords="375,95,467,121"/>
-<area shape="rect" id="node4" href="$enumworld_1_1RoomType.html" title="world.RoomType" alt="" coords="191,5,312,32"/>
+<area shape="rect" id="node2" href="$classentity_1_1Entity.html" title="entity.Entity" alt="" coords="165,184,257,211"/>
+<area shape="rect" id="node3" href="$classworld_1_1room_1_1Room.html" title="world.room.Room" alt="" coords="211,95,336,121"/>
+<area shape="rect" id="node4" href="$enumworld_1_1room_1_1RoomType.html" title="world.room.RoomType" alt="" coords="600,5,755,32"/>
 </map>

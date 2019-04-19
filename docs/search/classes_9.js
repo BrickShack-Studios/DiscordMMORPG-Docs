@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['username',['Username',['../classtools_1_1Username.html',1,'tools']]]
+  ['stripid',['StripID',['../classlua_1_1api_1_1CommunicationDeprecated_1_1StripID.html',1,'lua::api::CommunicationDeprecated']]]
 ];

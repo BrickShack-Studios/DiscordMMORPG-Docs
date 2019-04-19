@@ -1,0 +1,4 @@
+<map id="world.room.Door" name="world.room.Door">
+<area shape="rect" id="node2" href="$classworld_1_1room_1_1Room.html" title="world.room.Room" alt="" coords="295,81,420,108"/>
+<area shape="rect" id="node3" href="$enumworld_1_1room_1_1RoomType.html" title="world.room.RoomType" alt="" coords="25,5,180,32"/>
+</map>

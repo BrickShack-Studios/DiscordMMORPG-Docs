@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['stripid',['StripID',['../classlua_1_1api_1_1CommunicationDeprecated_1_1StripID.html',1,'lua::api::CommunicationDeprecated']]]
+  ['room',['Room',['../classworld_1_1room_1_1Room.html',1,'world::room']]],
+  ['roomtype',['RoomType',['../enumworld_1_1room_1_1RoomType.html',1,'world::room']]]
 ];
